@@ -5,6 +5,10 @@ this is a replica of a project for work. The purpose of this project was to gath
 The code in this repo has been left largely unedited. The only edits are the removal of files that include sales or personnel data. The data files that are included include information that is accessible to the public. All screenshots are taken from the live report and have been edited to redact potentially sensitive sales information.
 
 ### Software
+- Python )Data cleaning transforming)
+- SQL/Python (Data Loading)
+- Amazon RDS (Database)
+- Tableau (Visualization)
 
 ### Background and Overview
 This project emerged from a need within Marketing, Sales, and Acquisitions to better understand the performance of our frontlist titles and how to respond to changes within the academic publishing industry that pulled us away from our previous business model into one that was more oriented towards open access. As OA became more important we wanted to understand:
@@ -17,8 +21,8 @@ Once the final reports were ready we opted to move the data into an RDS. I opted
 
 ### Takeaways
 There were a few key takeaways from this project:
-Understanding how to talk about data across departments. Understanding what questions to ask, how to frame a problem, and how to make data projects feel accessible to everyone involved. 
-The importance of a data QA and reproducibility. All data cleaning and transforming took place in python. This was a significant change from our previous reliance on using software like Excel to edit data files prior to analysis. Scripting all data transformations was key to reproducibility and good documentation. It also lessened the potential for introducing errors and helped preserve the integrity of the data we were pulling in. 
+- Understanding how to talk about data across departments. Understanding what questions to ask, how to frame a problem, and how to make data projects feel accessible to everyone involved. 
+- T-he importance of a data QA and reproducibility. All data cleaning and transforming took place in python. This was a significant change from our previous reliance on using software like Excel to edit data files prior to analysis. Scripting all data transformations was key to reproducibility and good documentation. It also lessened the potential for introducing errors and helped preserve the integrity of the data we were pulling in. 
 
 
 
